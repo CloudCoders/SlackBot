@@ -14,16 +14,18 @@ def parse_slack_output(slack_rtm_output):
     output_list = slack_rtm_output
 
     if output_list and len(output_list) > 0:
-        for output in output_list:
-            if output and 'text' in output and AT_BOT in output['text']:
-                # return text after the @ mention, whitespace removed
-                return output['text'].split(AT_BOT)[1].strip().lower(), output['channel']
-    return None,None
+        if output_list and len(output_list) > 0:
+            for output in output_list:
+                if output and 'text' in output:
+                    return output['text'].lower(), \
+                           output['channel']
+    return None, None
 
 
 def handle_data(data, channel):
     if "jarvis" in data:
-        slack_client.api_call("aun no estoy configurado!")
+        slack_client.api_call("chat.postMessage", channel=channel,
+                              text="Aun no estoy configurado", as_user=True)
 
 
 if __name__ == "__main__" :
@@ -33,7 +35,7 @@ if __name__ == "__main__" :
         while True:
             data, channel = parse_slack_output(slack_client.rtm_read())
             if data and channel:
-                handle_data(data,channel)
+                handle_data(data, channel)
             time.sleep(READ_WEB_SOCKET_DELAY)
     else:
         print("Connection failed! J.A.R.V.I.S. broken")
