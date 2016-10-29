@@ -1,28 +1,29 @@
 {
   "name": "jarvis",
   "version": "1.0.0",
-  "description": "Slack bot with nodejs",
+  "description": "Toni Stark stolen bot",
   "main": "lib/jarvis.js",
+  "bin": {
+    "jarvis": "bot.js"
+  },
+  "dependencies": {
+    "slackbots": "^0.5.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "test": "testme"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CloudCoders/SlackBot.git"
   },
   "keywords": [
-    "jarvis"
+    "jarvisbot"
   ],
   "author": "Nhemesy",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/CloudCoders/SlackBot/issues"
   },
-  "homepage": "https://github.com/CloudCoders/SlackBot#readme",
-  "dependencies": {
-    "slackbots": "^0.5.3"
-  },
-  "bin": {
-    "jarvis": "bot.js"
-  }
+  "homepage": "https://github.com/CloudCoders/SlackBot#readme"
 }
