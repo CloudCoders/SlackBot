@@ -21,5 +21,8 @@
   "homepage": "https://github.com/CloudCoders/SlackBot#readme",
   "dependencies": {
     "slackbots": "^0.5.3"
+  },
+  "bin": {
+    "jarvis": "bot.js"
   }
 }
