@@ -1,0 +1,25 @@
+{
+  "name": "jarvis",
+  "version": "1.0.0",
+  "description": "Slack bot with nodejs",
+  "main": "lib/jarvis.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudCoders/SlackBot.git"
+  },
+  "keywords": [
+    "jarvis"
+  ],
+  "author": "Nhemesy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CloudCoders/SlackBot/issues"
+  },
+  "homepage": "https://github.com/CloudCoders/SlackBot#readme",
+  "dependencies": {
+    "slackbots": "^0.5.3"
+  }
+}
