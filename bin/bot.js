@@ -1,7 +1,7 @@
 'use strict';
 
 
-var Jarvis = require('../lib/jarvis');
+var Jarvis = require('../lib/jarvisbotslack');
 
 var token = process.env.BOT_API_KEY;
 var name = process.env.BOT_NAME;
