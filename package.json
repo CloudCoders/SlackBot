@@ -25,5 +25,18 @@
   "bugs": {
     "url": "https://github.com/CloudCoders/SlackBot/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/CloudCoders/SlackBot#readme"
+=======
+  "homepage": "https://github.com/CloudCoders/SlackBot#readme",
+  "dependencies": {
+    "slackbots": "^0.5.3"
+  },
+  "bin": {
+    "jarvis": "bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js"
+}
+>>>>>>> b162c18a5623a4734914e38e60788512a585a828
 }
