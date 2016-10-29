@@ -24,7 +24,7 @@
   },
   "bin": {
     "jarvis": "bot.js"
-  }
+  },
   "scripts": {
     "start": "node bin/bot.js"
 }
