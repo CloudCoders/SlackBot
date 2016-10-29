@@ -1,10 +1,10 @@
 {
-  "name": "jarvis",
+  "name": "jarvisbotslack",
   "version": "1.0.0",
   "description": "Toni Stark stolen bot",
   "main": "lib/jarvis.js",
   "bin": {
-    "jarvis": "bot.js"
+    "jarvisbotslack": "bot.js"
   },
   "dependencies": {
     "slackbots": "^0.5.3"
@@ -30,9 +30,12 @@
     "slackbots": "^0.5.3"
   },
   "bin": {
-    "jarvis": "bot.js"
+    "jarvisbotslack": "bot.js"
   },
   "scripts": {
     "start": "node bin/bot.js"
+  },
+  "engines": {
+    "node": "7.0.0"
   }
 }
