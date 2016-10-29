@@ -34,5 +34,8 @@
   },
   "scripts": {
     "start": "node bin/bot.js"
+  },
+  "engines": {
+    "node": "7.0.0"
   }
 }
