@@ -1,11 +1,21 @@
-SlackBot!
+<b>SlackBot!</b>
 
 
-Bot for our slack, implemented on Python.
+Bot for our slack, implemented on <s>Python</s> <b>NodeJS</b>.
 
 
-I invite you to suggest name from our bot in slack, originality please (Goterris is not an option).
+Current name of this bot si Jarvis (From <b>J.A.R.V.I.S</b>, AI from Tony Stark).
 
+<samp>
+Current features:
+- Reply some messages with simple responses.
+</samp>
 
-Everyone is free to send a pull request to add new features to this bot and make it a great 
-UI with more inteligence than tonilopezmr <3
+<samp>
+Future features to implement:
+- More responses
+- Implement lots of this responses in to database
+- Wikipedia module
+</samp>
+
+<b>Be free to make a pull request with your ideas!</b>
